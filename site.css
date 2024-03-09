@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*
+{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner1
+{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-image:url("img/1.jpg");
+    background-size:cover;
+}
+
+.resp
+{
+    width:100%;
+    max-width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+
+.texto
+{
+    position:relative;
+    width:100%;
+    height:auto;
+    padding:100px;
+    text-align:justify;
+    font-size:14pt;
+    line-height:150%;
+    top:100vh;
+    background-color:rgb(137, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.banner2
+{
+    position:relative;
+    top:calc(100vh + 0px);
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+
+.vazio
+{
+    position:relative;
+    top:calc(100vh + 0px);
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
